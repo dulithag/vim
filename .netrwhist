@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/dulithagunasekera/Documents/MITopencourseware/Intro_to_C_memory_management_and_C++_OOP/assignments/assn02/a.out.dSYM'
+let g:netrw_dirhist_2='/Users/dulithagunasekera/Documents/MITopencourseware/Intro_to_C_memory_management_and_C++_OOP/assignments/assn02/a.out.dSYM/Contents'
+let g:netrw_dirhist_3='/Users/dulithagunasekera/Documents/MITopencourseware/Intro_to_C_memory_management_and_C++_OOP/assignments/assn02/a.out.dSYM/Contents/Resources'
+let g:netrw_dirhist_4='/Users/dulithagunasekera/Documents/MITopencourseware/Intro_to_C_memory_management_and_C++_OOP/assignments/assn02/a.out.dSYM/Contents/Resources/DWARF'
+let g:netrw_dirhist_5='/User Guides And Information'
+let g:netrw_dirhist_6='/Users/dulithagunasekera/.oh-my-zsh'

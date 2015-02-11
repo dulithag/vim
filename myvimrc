@@ -1,0 +1,74 @@
+"Basic settings
+"--------------
+        
+	set background=dark
+	" for syntax colouring 
+	syntax on
+	" to set line numbers	
+	set number
+	" to set highlight search
+	set hlsearch
+	"auto indentation
+"	set autoindent
+	"tab completion shizzel
+	"set wildmenu
+	"set wildmode=list:longest,full
+	"the percentage of file traversed
+	set ruler
+	"set tab
+	set tabstop=4
+	"mouse support
+	set mouse=a
+	"folding based on syntax
+"	:setlocal foldmethod=syntax
+"
+
+"PATHOGEN
+"--------
+	call pathogen#infect() 
+
+"NERDTREE
+"--------
+	map <F7> :NERDTreeToggle<cr>
+
+" airline
+"--------
+	set laststatus=2
+	set t_Co=256
+	let g:airline_section_warning = 0 
+	let g:airline_section_b= 0 
+	let g:airline_section_y= 0 
+	let g:airline_theme='wombat'
+	"call airline#parts#define_accent('a', 'red')
+	"set noshowmode
+
+"TAGBAR
+"------
+	"set shortcut
+	nmap <F8> :TagbarToggle<CR>
+ 	let g:tagbar_left = 1 
+	let g:airline_detect_modified=0
+
+"CLANG_COMP
+"----------
+	set conceallevel=2
+	set concealcursor=vin
+	let g:clang_snippets=1
+	let g:clang_conceal_snippets=1
+	" The single one that works with clang_complete
+	let g:clang_snippets_engine='clang_complete'
+
+	" Complete options (disable preview scratch window, longest removed to aways
+	" show menu)
+	set completeopt=menu,menuone
+
+	" Limit popup menu height
+	set pumheight=15
+
+	" SuperTab completion fall-back
+	filetype plugin on 
+	let g:SuperTabDefaultCompletionType='<c-x><c-u><c-p>'
+
+
+	highlight Comment ctermfg=gray
+
